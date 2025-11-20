@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X+iMbeTDtZVlLdRRbYcp+3hqg73nDI/rItdE/rkOvyserdp2vWvU1C8YSPhrHh+cis3iUEabPlwiWDTUJjCOvg==",
+  "dgSpecHash": "KmPIl3jHYeSTZcV4/bACG5LqUvGV70McpdCQJQnxvT3yCwqa2QkB8dJL/mE0vKLkZvZQq67xe/x9+zf6FCBNXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natag\\OneDrive\\Рабочий стол\\koraga\\3k\\practforgor\\lab19\\lab19.csproj",
+  "projectFilePath": "C:\\Users\\natag\\OneDrive\\Рабочий стол\\koraga\\3k\\practforgor\\planner2\\lab19\\lab19.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natag\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0\\microsoft.data.sqlite.10.0.0.nupkg.sha512",
     "C:\\Users\\natag\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",

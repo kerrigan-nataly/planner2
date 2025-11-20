@@ -15,7 +15,7 @@ namespace lab19
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            sqlConnection = new SqliteConnection(@"Data Source = C:\Users\natag\OneDrive\Рабочий стол\koraga\4k\kri\tasks.db;");
+            sqlConnection = new SqliteConnection(@"Data Source = ./tasks.db;");
             sqlConnection.Open();
         }
 
@@ -28,7 +28,7 @@ namespace lab19
         }
 
         private void button_enter_Click(object sender, EventArgs e)
-        {
+        {            
             var command_auth = new SqliteCommand(
                 $"select id_user, password from user where login = '{tb_login.Text}'", sqlConnection);
             command_auth.ExecuteNonQuery();

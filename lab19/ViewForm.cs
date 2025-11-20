@@ -13,7 +13,7 @@ namespace lab19
             this.main = main;
             InitializeComponent();
 
-            sqlConnection = new SqliteConnection(@"Data Source = C:\Users\natag\OneDrive\Рабочий стол\koraga\4k\kri\tasks.db;");
+            sqlConnection = new SqliteConnection(@"Data Source = ./tasks.db;");
             sqlConnection.Open();
             UpdateDB();
         }
